@@ -1,0 +1,69 @@
+/* Greg Sherrid, 4-20-2014 */
+
+div.my-carousel {
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 0 40px;
+}
+div.my-carousel	div.my-carousel-item {
+	display: inline-block;
+	width: 100%;
+	margin-left: -40px;
+	padding: 0 40px;
+	white-space: normal;
+	vertical-align: middle;
+}
+
+div.my-carousel div.my-carousel-slider {
+	position: relative;
+}
+
+div.my-carousel div.arrow {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+
+	cursor: pointer;
+}
+div.my-carousel div.arrow:hover {
+	opacity: .8;
+}
+
+div.my-carousel div.arrow.right {
+	right: 0;
+	border-width: 40px 0 40px 30px;
+	border-color: transparent transparent transparent #00a0f4;			
+}
+div.my-carousel div.arrow.left {
+	left: 0;
+	border-width: 40px 30px 40px 0;
+	border-color: transparent #00a0f4 transparent transparent;
+}
+
+div.my-carousel div.my-carousel-indicator {
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+	height: 30px;
+	text-align: right;
+}
+
+div.my-carousel a.op {
+	display: inline-block;
+	border-radius: 15px;
+	height: 14px;
+	width: 14px;
+	margin-left: 4px;
+
+	background-color: #777;
+	opacity: .6;
+	text-decoration: none;
+}
+
+div.my-carousel a.op.active, div.my-carousel a.op:hover {
+	background-color: #777;
+}
