@@ -13,8 +13,6 @@ div.my-carousel {
 }
 div.my-carousel	div.my-carousel-item {
 	display: inline-block;
-	width: 100%;
-	margin-left: -40px;
 	padding: 0 40px;
 	white-space: normal;
 	vertical-align: middle;
@@ -70,5 +68,5 @@ div.my-carousel a.op {
 }
 
 div.my-carousel a.op.active, div.my-carousel a.op:hover {
-	background-color: #777;
+	background-color: #444;
 }
