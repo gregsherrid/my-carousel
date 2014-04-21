@@ -1,4 +1,9 @@
-/* Greg Sherrid, 4-20-2014 */
+/*
+ * Greg Sherrid, 4-20-2014
+ * Copyright 2014, Gregory Sherrid
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+*/
 
 function setupCarousels() {
 	$(".my-carousel").each( function() {
